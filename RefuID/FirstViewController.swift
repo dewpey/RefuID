@@ -7,11 +7,16 @@
 //
 
 import UIKit
+import IrohaSwift
 
 class FirstViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
+        
+        let keypair = IrohaSwift.createKeyPair()
+        print(keypair)
         // Do any additional setup after loading the view, typically from a nib.
     }
 

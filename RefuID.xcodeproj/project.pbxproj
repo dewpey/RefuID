@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C4CB8650DD2F324D0B65C94 /* Pods_RefuIDUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 583B941A187BA911D5546769 /* Pods_RefuIDUITests.framework */; };
 		0D3DB4CA1FF2E3FE00C532DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3DB4C91FF2E3FE00C532DA /* AppDelegate.swift */; };
 		0D3DB4CC1FF2E3FE00C532DA /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3DB4CB1FF2E3FE00C532DA /* FirstViewController.swift */; };
 		0D3DB4CE1FF2E3FE00C532DA /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3DB4CD1FF2E3FE00C532DA /* SecondViewController.swift */; };
@@ -14,6 +15,8 @@
 		0D3DB4D31FF2E3FE00C532DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D3DB4D21FF2E3FE00C532DA /* Assets.xcassets */; };
 		0D3DB4D61FF2E3FE00C532DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D3DB4D41FF2E3FE00C532DA /* LaunchScreen.storyboard */; };
 		0D3DB4E11FF2E3FE00C532DA /* RefuIDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3DB4E01FF2E3FE00C532DA /* RefuIDUITests.swift */; };
+		0DA8DDE91FF4281400AF965E /* createIdentityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA8DDE81FF4281400AF965E /* createIdentityViewController.swift */; };
+		4306DE0C83F02384F8E71E1D /* Pods_RefuID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 916D8F2F063882F694364329 /* Pods_RefuID.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,15 @@
 		0D3DB4DC1FF2E3FE00C532DA /* RefuIDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RefuIDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D3DB4E01FF2E3FE00C532DA /* RefuIDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefuIDUITests.swift; sourceTree = "<group>"; };
 		0D3DB4E21FF2E3FE00C532DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DA8DDE51FF3865A00AF965E /* RefuID-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RefuID-Bridging-Header.h"; sourceTree = "<group>"; };
+		0DA8DDE71FF4196200AF965E /* Base */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Base; path = Base.lproj/generateKeyPair.swift; sourceTree = "<group>"; };
+		0DA8DDE81FF4281400AF965E /* createIdentityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = createIdentityViewController.swift; sourceTree = "<group>"; };
+		24A1AA70D106CF24C1E06AFB /* Pods-RefuID.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RefuID.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RefuID/Pods-RefuID.debug.xcconfig"; sourceTree = "<group>"; };
+		529D65034DDE7BEFA2329ACC /* Pods-RefuIDUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RefuIDUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RefuIDUITests/Pods-RefuIDUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5376D6C5BEFDD51B2884BE93 /* Pods-RefuID.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RefuID.release.xcconfig"; path = "Pods/Target Support Files/Pods-RefuID/Pods-RefuID.release.xcconfig"; sourceTree = "<group>"; };
+		583B941A187BA911D5546769 /* Pods_RefuIDUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RefuIDUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		916D8F2F063882F694364329 /* Pods_RefuID.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RefuID.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC06C74699A72AB5A88A1311 /* Pods-RefuIDUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RefuIDUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RefuIDUITests/Pods-RefuIDUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4306DE0C83F02384F8E71E1D /* Pods_RefuID.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C4CB8650DD2F324D0B65C94 /* Pods_RefuIDUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +78,8 @@
 				0D3DB4C81FF2E3FE00C532DA /* RefuID */,
 				0D3DB4DF1FF2E3FE00C532DA /* RefuIDUITests */,
 				0D3DB4C71FF2E3FE00C532DA /* Products */,
+				3F051CDCDF2D0183EA314DFB /* Pods */,
+				B2541C886836A73CF6DE3C78 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +95,7 @@
 		0D3DB4C81FF2E3FE00C532DA /* RefuID */ = {
 			isa = PBXGroup;
 			children = (
+				0DA8DDE51FF3865A00AF965E /* RefuID-Bridging-Header.h */,
 				0D3DB4C91FF2E3FE00C532DA /* AppDelegate.swift */,
 				0D3DB4CB1FF2E3FE00C532DA /* FirstViewController.swift */,
 				0D3DB4CD1FF2E3FE00C532DA /* SecondViewController.swift */,
@@ -86,6 +103,8 @@
 				0D3DB4D21FF2E3FE00C532DA /* Assets.xcassets */,
 				0D3DB4D41FF2E3FE00C532DA /* LaunchScreen.storyboard */,
 				0D3DB4D71FF2E3FE00C532DA /* Info.plist */,
+				0DA8DDE61FF4196200AF965E /* generateKeyPair.swift */,
+				0DA8DDE81FF4281400AF965E /* createIdentityViewController.swift */,
 			);
 			path = RefuID;
 			sourceTree = "<group>";
@@ -99,6 +118,26 @@
 			path = RefuIDUITests;
 			sourceTree = "<group>";
 		};
+		3F051CDCDF2D0183EA314DFB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				24A1AA70D106CF24C1E06AFB /* Pods-RefuID.debug.xcconfig */,
+				5376D6C5BEFDD51B2884BE93 /* Pods-RefuID.release.xcconfig */,
+				DC06C74699A72AB5A88A1311 /* Pods-RefuIDUITests.debug.xcconfig */,
+				529D65034DDE7BEFA2329ACC /* Pods-RefuIDUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B2541C886836A73CF6DE3C78 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				916D8F2F063882F694364329 /* Pods_RefuID.framework */,
+				583B941A187BA911D5546769 /* Pods_RefuIDUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +145,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0D3DB4E51FF2E3FE00C532DA /* Build configuration list for PBXNativeTarget "RefuID" */;
 			buildPhases = (
+				BA3587359047A2FFC60C6EF5 /* [CP] Check Pods Manifest.lock */,
 				0D3DB4C21FF2E3FE00C532DA /* Sources */,
 				0D3DB4C31FF2E3FE00C532DA /* Frameworks */,
 				0D3DB4C41FF2E3FE00C532DA /* Resources */,
+				E9F781ACD3BD5924FAC7F837 /* [CP] Embed Pods Frameworks */,
+				BC4E4A1E205F47445E61DA09 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,9 +165,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0D3DB4E81FF2E3FE00C532DA /* Build configuration list for PBXNativeTarget "RefuIDUITests" */;
 			buildPhases = (
+				6C536CDA7701DC094E295D48 /* [CP] Check Pods Manifest.lock */,
 				0D3DB4D81FF2E3FE00C532DA /* Sources */,
 				0D3DB4D91FF2E3FE00C532DA /* Frameworks */,
 				0D3DB4DA1FF2E3FE00C532DA /* Resources */,
+				E42522F6BABD6E4E48EA5288 /* [CP] Embed Pods Frameworks */,
+				06054886C3CFB3D321E0DC3E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,6 +194,7 @@
 				TargetAttributes = {
 					0D3DB4C51FF2E3FE00C532DA = {
 						CreatedOnToolsVersion = 9.0.1;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					0D3DB4DB1FF2E3FE00C532DA = {
@@ -197,6 +243,112 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		06054886C3CFB3D321E0DC3E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RefuIDUITests/Pods-RefuIDUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C536CDA7701DC094E295D48 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RefuIDUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA3587359047A2FFC60C6EF5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RefuID-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BC4E4A1E205F47445E61DA09 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RefuID/Pods-RefuID-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E42522F6BABD6E4E48EA5288 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RefuIDUITests/Pods-RefuIDUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9F781ACD3BD5924FAC7F837 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RefuID/Pods-RefuID-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Eureka/Eureka.framework",
+				"${BUILT_PRODUCTS_DIR}/ImageRow/ImageRow.framework",
+				"${BUILT_PRODUCTS_DIR}/IrohaSwift/IrohaSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Eureka.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImageRow.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IrohaSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RefuID/Pods-RefuID-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0D3DB4C21FF2E3FE00C532DA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -204,6 +356,7 @@
 			files = (
 				0D3DB4CE1FF2E3FE00C532DA /* SecondViewController.swift in Sources */,
 				0D3DB4CA1FF2E3FE00C532DA /* AppDelegate.swift in Sources */,
+				0DA8DDE91FF4281400AF965E /* createIdentityViewController.swift in Sources */,
 				0D3DB4CC1FF2E3FE00C532DA /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,6 +394,14 @@
 				0D3DB4D51FF2E3FE00C532DA /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0DA8DDE61FF4196200AF965E /* generateKeyPair.swift */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DA8DDE71FF4196200AF965E /* Base */,
+			);
+			name = generateKeyPair.swift;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -355,14 +516,18 @@
 		};
 		0D3DB4E61FF2E3FE00C532DA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24A1AA70D106CF24C1E06AFB /* Pods-RefuID.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5WHUAKUFHC;
 				INFOPLIST_FILE = RefuID/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.drewpatel.RefuID;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RefuID/RefuID-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -370,14 +535,17 @@
 		};
 		0D3DB4E71FF2E3FE00C532DA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5376D6C5BEFDD51B2884BE93 /* Pods-RefuID.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5WHUAKUFHC;
 				INFOPLIST_FILE = RefuID/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.drewpatel.RefuID;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RefuID/RefuID-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -385,6 +553,7 @@
 		};
 		0D3DB4E91FF2E3FE00C532DA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC06C74699A72AB5A88A1311 /* Pods-RefuIDUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -401,6 +570,7 @@
 		};
 		0D3DB4EA1FF2E3FE00C532DA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 529D65034DDE7BEFA2329ACC /* Pods-RefuIDUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
