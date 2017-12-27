@@ -1,0 +1,19 @@
+PODS:
+  - Eureka (4.0.1)
+  - ImageRow (3.0.0):
+    - Eureka (~> 4.0)
+  - IrohaSwift (1.0.0)
+
+DEPENDENCIES:
+  - Eureka
+  - ImageRow
+  - IrohaSwift
+
+SPEC CHECKSUMS:
+  Eureka: c8bd5cc07143b6f66268c208d28a246c99b41955
+  ImageRow: 048123c296de9a6ac3998c415a6706c45ce480af
+  IrohaSwift: 69771b19d5289dc297dc01ac266877972b236710
+
+PODFILE CHECKSUM: b5d544fa25bd79ef0abe57de8365a0a31a24706c
+
+COCOAPODS: 1.3.1

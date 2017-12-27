@@ -35,6 +35,7 @@ class createIdentityViewController: FormViewController {
             <<< NameRow(){ row in
                 row.title = "Last Name"
             }
+        
         // Do any additional setup after loading the view.
     }
 
